@@ -1,6 +1,6 @@
 {
   "name": "Goodbye Quora Embed Button",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "description": "Disable the annoying Embed Quote button on Quora that appears when highlighting/selecting text.",
   "icons": {
@@ -11,6 +11,7 @@
   "content_scripts": [{
     "matches": ["http://*.quora.com/*"],
     "js": ["contentscript.js"],
-    "all_frames": false
+    "all_frames": false,
+    "run_at": "document_end"
   }]
 }
