@@ -9,7 +9,9 @@ var actualCode = [
 ].join('\n');
 
 // inject the code
-var script = document.createElement('script');
-script.textContent = actualCode;
-(document.head || document.documentElement).appendChild(script);
-script.parentNode.removeChild(script);
+setTimeout(function() {
+	var script = document.createElement('script');
+	script.textContent = actualCode;
+	(document.head || document.documentElement).appendChild(script);
+	script.parentNode.removeChild(script);
+}, 100);
