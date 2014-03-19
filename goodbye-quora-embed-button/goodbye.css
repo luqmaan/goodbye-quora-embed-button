@@ -1,4 +1,4 @@
-/* <div class="hover_menu quote-hover-menu" style="display: block; top: 4254px; left: 568px; bottom: -4130px;" id="__w2_pkOHlEJ_menu"><div class="hover_menu_nub" style="background-image: url(http://www.quora.com/static/images/quote_tooltip_nub.png); background-position: 10px 0px; background-repeat: no-repeat no-repeat;"></div><div class="hover_menu_contents quote-button" id="__w2_pkOHlEJ_menu_contents"><a class="action_button" style="white-space: nowrap;" href="#" id="__w2_dH7Z2Wd_quote_button"><strong>Embed Quote</strong></a></div></div> */
-.quote-hover-menu {
-    display: none !important;
+/* <div class="hover_menu quote_hover_menu" style="display: block; top: 218px; left: 500.96875px;" id="__w2_ZWDF4jA_menu"><div class="hover_menu_nub" style="background-image: url(https://www.quora.com/static/images/quote_tooltip_nub.png); background-position: 10px 0px; background-repeat: no-repeat no-repeat;"></div><div class="hover_menu_contents quote_button quote-button" id="__w2_ZWDF4jA_menu_contents"><a class="action_button" style="white-space: nowrap;" href="#" id="__w2_bUMbc1U_quote_button"><strong>Embed Quote</strong></a></div></div> */
+.hover_menu , .quote_hover_menu {
+	display: none !important;
 }
