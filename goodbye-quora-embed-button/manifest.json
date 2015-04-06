@@ -1,6 +1,6 @@
 {
   "name": "Goodbye Quora Embed Button",
-  "version": "1.45",
+  "version": "1.47",
   "manifest_version": 2,
   "description": "Stop the Embed Quote button on Quora from popping up when you select/highlight text.",
   "icons": {
